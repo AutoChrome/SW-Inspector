@@ -51,6 +51,10 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: inspector
+          path: inspector
+      - name: Display structure of downloaded files
+        run: ls -R
+        working-directory: inspector
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
