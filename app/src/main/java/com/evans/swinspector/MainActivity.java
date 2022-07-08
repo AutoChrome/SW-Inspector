@@ -15,7 +15,6 @@ import android.util.Log;
 import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
